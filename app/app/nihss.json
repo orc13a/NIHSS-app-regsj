@@ -1,0 +1,350 @@
+[
+    {
+        "assessment": 1,
+        "assessmentTitle": "1a. Bevisthedsnivaue",
+        "assessmentSubTitle": "Ligger du godt - Har du nogen smerter",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Helt vågen, reagerer naturligt"
+            },
+            {
+                "score": 1,
+                "description": "Ikke vågen, men responderer ved mindre stimuli"
+            },
+            {
+                "score": 2,
+                "description": "Ikke vågen, kan kun vækkes ved gentagne eller kraftige stimuli"
+            },
+            {
+                "score": 3,
+                "description": "Ukontaktbar"
+            }
+        ]
+    },
+    {
+        "assessment": 2,
+        "assessmentTitle": "1b. Spørgsmål",
+        "assessmentSubTitle": "Hvilken måned er det - Hvor gammel er du",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Begge svar korrekt"
+            },
+            {
+                "score": 1,
+                "description": "Ét af svarene korrekt"
+            },
+            {
+                "score": 2,
+                "description": "Ingen af svarene er korrekte"
+            }
+        ]
+    },
+    {
+        "assessment": 3,
+        "assessmentTitle": "1c. Kommandoer",
+        "assessmentSubTitle": "Luk og åben øjne - Knyt og åbne en hånd",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ufører begge ordrer korrekt"
+            },
+            {
+                "score": 1,
+                "description": "Udfører én ordre korrekt"
+            },
+            {
+                "score": 2,
+                "description": "Ingen af ordrerne udført korrekt"
+            }
+        ]
+    },
+    {
+        "assessment": 4,
+        "assessmentTitle": "2. Blik",
+        "assessmentSubTitle": "Kun horisontale øjenbevægelser",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Normale øjenbevægelser"
+            },
+            {
+                "score": 1,
+                "description": "Partiel blikparese"
+            },
+            {
+                "score": 2,
+                "description": "Total blikparese eller blikdeviation"
+            }
+        ]
+    },
+    {
+        "assessment": 5,
+        "assessmentTitle": "3. Test af synsfelt",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Normalt synsfelt"
+            },
+            {
+                "score": 1,
+                "description": "Partiel hemianposi"
+            },
+            {
+                "score": 2,
+                "description": "Komplet hemianopsi"
+            },
+            {
+                "score": 3,
+                "description": "Bilateral blindhed (blind inkl. kortikal blindhed)"
+            }
+        ]
+    },
+    {
+        "assessment": 6,
+        "assessmentTitle": "4. Facialisparese",
+        "assessmentSubTitle": "Vis tænder - lukke øjnene fast i - løfte øjenbryn",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Normale, symmetriske ansigtsbevægelser"
+            },
+            {
+                "score": 1,
+                "description": "Let parese (udglattet nasolabialfure eller asymmetri ved vis tander)"
+            },
+            {
+                "score": 2,
+                "description": "Partiel parese (svær eller total parese af nedre ansigtshalvdel)"
+            },
+            {
+                "score": 3,
+                "description": "Total paralyse af én eller begge sider (øvre og nedre ansigtshalvdel)"
+            }
+        ]
+    },
+    {
+        "assessment": 7,
+        "assessmentTitle": "5a. Motorisk funktion - Venstre Arm",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen nedsynkning"
+            },
+            {
+                "score": 1,
+                "description": "Nedsynkning, men ikke til underlag"
+            },
+            {
+                "score": 2,
+                "description": "Nogen kraft mod tyngdekræften"
+            },
+            {
+                "score": 3,
+                "description": "Falder til underlag, let bevægelse"
+            },
+            {
+                "score": 4,
+                "description": "Ingen bevægelse"
+            }
+        ]
+    },
+    {
+        "assessment": 8,
+        "assessmentTitle": "5b. Motorisk funktion - Højre Arm",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen nedsynkning"
+            },
+            {
+                "score": 1,
+                "description": "Nedsynkning, men ikke til underlag"
+            },
+            {
+                "score": 2,
+                "description": "Nogen kraft mod tyngdekræften"
+            },
+            {
+                "score": 3,
+                "description": "Falder til underlag, let bevægelse"
+            },
+            {
+                "score": 4,
+                "description": "Ingen bevægelse"
+            }
+        ]
+    },
+    {
+        "assessment": 9,
+        "assessmentTitle": "6a. Motorisk funktion - Venstre Ben",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen nedsynkning"
+            },
+            {
+                "score": 1,
+                "description": "Nedsynkning, men ikke til underlag"
+            },
+            {
+                "score": 2,
+                "description": "Nogen kraft mod tyngdekræften"
+            },
+            {
+                "score": 3,
+                "description": "Falder til underlag, let bevægelse"
+            },
+            {
+                "score": 4,
+                "description": "Ingen bevægelse"
+            }
+        ]
+    },
+    {
+        "assessment": 10,
+        "assessmentTitle": "6b. Motorisk funktion - Højre Ben",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen nedsynkning"
+            },
+            {
+                "score": 1,
+                "description": "Nedsynkning, men ikke til underlag"
+            },
+            {
+                "score": 2,
+                "description": "Nogen kraft mod tyngdekræften"
+            },
+            {
+                "score": 3,
+                "description": "Falder til underlag, let bevægelse"
+            },
+            {
+                "score": 4,
+                "description": "Ingen bevægelse"
+            }
+        ]
+    },
+    {
+        "assessment": 11,
+        "assessmentTitle": "7. Ekstremitets ataksi",
+        "assessmentSubTitle": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen ataksi"
+            },
+            {
+                "score": 1,
+                "description": "Ataksi i én ekstremitet"
+            },
+            {
+                "score": 2,
+                "description": "Ataksi i to ekstremiteter"
+            }
+        ]
+    },
+    {
+        "assessment": 12,
+        "assessmentTitle": "8. Sensibilitet",
+        "assessmentSubTitle": "Teste ansigt-arme -ben - sammenlignsider",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Normal sensibilitet for spidst prik"
+            },
+            {
+                "score": 1,
+                "description": "Let til moderat nedsat sensibilitet for spidst prik"
+            },
+            {
+                "score": 2,
+                "description": "Svær til totalt sensibilitetstab"
+            }
+        ]
+    },
+    {
+        "assessment": 13,
+        "assessmentTitle": "9. Afasi",
+        "assessmentSubTitle": "Beskrive billeder - benævn genstande - læs sætninger (Brug billede)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen afasi"
+            },
+            {
+                "score": 1,
+                "description": "Let til moderat afasi"
+            },
+            {
+                "score": 2,
+                "description": "Svær afasi"
+            },
+            {
+                "score": 3,
+                "description": "Global afasi"
+            }
+        ]
+    },
+    {
+        "assessment": 14,
+        "assessmentTitle": "10. Dysartri",
+        "assessmentSubTitle": "Læs forskellige ord (Brug billede)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Normal artikulation"
+            },
+            {
+                "score": 1,
+                "description": "Let til moderat dysartri, sløret tale"
+            },
+            {
+                "score": 2,
+                "description": "Uforståelige tale eller patienten er helt uden tale"
+            }
+        ]
+    },
+    {
+        "assessment": 15,
+        "assessmentTitle": "11. Inattention",
+        "assessmentSubTitle": "Dobbeltsidig sanse stimulation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentScoring": [
+            {
+                "score": 0,
+                "description": "Ingen abnormalitet"
+            },
+            {
+                "score": 1,
+                "description": "Følesans, synssans, høresans, rummelighedssans og personlig inattention"
+            },
+            {
+                "score": 2,
+                "description": "Udtalt hemi-inattention, mere end en sans"
+            }
+        ]
+    }
+]
