@@ -3,6 +3,7 @@
 import styles from "./page.module.css";
 import NIHSS from "./nihss.json";
 import { useState, useEffect, use } from 'react'
+import { useRouter } from "next/navigation";
 // import { subscribeUser, unsubscribeUser, sendNotification } from './actions'
 
 // function urlBase64ToUint8Array(base64String) {
@@ -212,6 +213,13 @@ export default function Home() {
         
     }
 
+    const newAssessment = () => {
+        setAssessmentNumber(1);
+        setScoring(scoringDefault);
+        setNihssTotalScore(0);
+        setAssessmentFinished(false);
+    }
+
     return (
         <>
             {/* <PushNotificationManager />
@@ -273,143 +281,129 @@ export default function Home() {
                         NIHSS score: <span>{nihssTotalScore}</span>
                     </div>
                     <div className={styles.assessmentFinishedTableContainer}>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>
-                                        Undersøgelse
-                                    </th>
-                                    <th>
-                                        Point
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        1a.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[0]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        1b.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[1]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        1c.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[2]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        2.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[3]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        3.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[4]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        4.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[5]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        5a.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[6]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        5b.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[7]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        6a.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[8]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        6b.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[9]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        7.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[10]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        8.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[11]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        9.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[13]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        10.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[13]}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        11.
-                                    </td>
-                                    <td>
-                                        {scoring[0] === null ? '--' : scoring[14]}
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                1a.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[0]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                1b.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[1]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                1c.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[2]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                2.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[3]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                3.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[4]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                4.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[5]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                5a.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[6]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                5b.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[7]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                6a.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[8]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                6b.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[7]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                7.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[10]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                8.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[11]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                9.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[12]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                10.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[13]}
+                            </div>
+                        </div>
+                        <div className={styles.assessmentFinishedContainer}>
+                            <div>
+                                11.
+                            </div>
+                            <div>
+                                {scoring[0] === null ? '--' : scoring[14]}
+                            </div>
+                        </div>
                     </div>
                     <div style={{ paddingBottom: '16px' }}>
-                        <button className={styles.nextAssessmentButton}>
+                        <button onClick={newAssessment} className={styles.nextAssessmentButton}>
                             Ny patient?
                         </button>
                     </div>

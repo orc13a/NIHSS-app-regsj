@@ -3,7 +3,7 @@
         "assessment": 1,
         "assessmentTitle": "1a. Bevisthedsnivaue",
         "assessmentSubTitle": "Ligger du godt - Har du nogen smerter",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Vurder patientens vågenhed ved at observere spontan øjenåbning, kontakt og reaktion. Tal til patienten for at se, om der kommer respons. Hvis der ikke er reaktion på tale, bruges let smerte- eller kraftigere stimulation (fx tryk på sternum eller trapezius) for at vurdere reaktionsevnen.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -27,7 +27,7 @@
         "assessment": 2,
         "assessmentTitle": "1b. Spørgsmål",
         "assessmentSubTitle": "Hvilken måned er det - Hvor gammel er du",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Bed patienten om at oplyse årstal og måned. Tal tydeligt og gentag spørgsmålet én gang hvis nødvendigt. Vurder om patienten forstår og forsøger at svare, uden at hjælpe eller stille ledende spørgsmål.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -47,7 +47,7 @@
         "assessment": 3,
         "assessmentTitle": "1c. Kommandoer",
         "assessmentSubTitle": "Luk og åben øjne - Knyt og åbne en hånd",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Bed patienten udføre to simple kommandoer, fx “åbn øjnene” og “knyt hånden”. Giv én instruktion ad gangen, tydeligt og uden at demonstrere. Vurder om patienten forstår og forsøger at udføre kommandoerne.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -67,7 +67,7 @@
         "assessment": 4,
         "assessmentTitle": "2. Blik",
         "assessmentSubTitle": "Kun horisontale øjenbevægelser",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Bed patienten se lige frem og følg dine fingre med øjnene uden at bevæge hovedet. Før fingeren langsomt fra side til side i hele synsfeltet. Vurder om øjnene kan bevæges frit, eller om der ses tvangsdrejet blik eller begrænsning i øjenbevægelserne.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -87,7 +87,7 @@
         "assessment": 5,
         "assessmentTitle": "3. Test af synsfelt",
         "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Test synsfelterne ved at holde patientens blik rettet lige frem og bevæge dine fingre ind i synsfeltet fra hver kvadrant. Bed patienten sige til, når de ser dine fingre. Undersøg begge øjne og vurder om der mangler syn i en eller flere kvadranter.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -111,7 +111,7 @@
         "assessment": 6,
         "assessmentTitle": "4. Facialisparese",
         "assessmentSubTitle": "Vis tænder - lukke øjnene fast i - løfte øjenbryn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Bed patienten løfte begge øjenbryn, lukke øjnene stramt og vise tænder. Observer om ansigtet bevæger sig symmetrisk, og om der er nedsat eller manglende bevægelse i én side.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -133,9 +133,9 @@
     },
     {
         "assessment": 7,
-        "assessmentTitle": "5a. Motorisk funktion - Venstre Arm",
-        "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentTitle": "5a. Motorisk funktion",
+        "assessmentSubTitle": "Venstre arm",
+        "description": "Bed patienten løfte venstre arm til 90 grader (eller 45 grader hvis liggende) og holde den oppe uden støtte. Observer om armen synker, og hvor længe patienten kan holde den i position.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -161,9 +161,9 @@
     },
     {
         "assessment": 8,
-        "assessmentTitle": "5b. Motorisk funktion - Højre Arm",
-        "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentTitle": "5b. Motorisk funktion",
+        "assessmentSubTitle": "Højre arm",
+        "description": "Bed patienten løfte højre arm til 90 grader (eller 45 grader hvis liggende) og holde den oppe uden støtte. Observer om armen synker, og hvor længe patienten kan holde den i position.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -189,9 +189,9 @@
     },
     {
         "assessment": 9,
-        "assessmentTitle": "6a. Motorisk funktion - Venstre Ben",
-        "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentTitle": "6a. Motorisk funktion",
+        "assessmentSubTitle": "Venstre ben",
+        "description": "Bed patienten løfte venstre ben cirka 30 grader fra underlaget, mens de ligger ned. Observer om benet kan holdes oppe uden støtte, og hvor hurtigt det synker ned mod underlaget.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -217,9 +217,9 @@
     },
     {
         "assessment": 10,
-        "assessmentTitle": "6b. Motorisk funktion - Højre Ben",
-        "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "assessmentTitle": "6b. Motorisk funktion",
+        "assessmentSubTitle": "Højre ben",
+        "description": "Bed patienten løfte højre ben cirka 30 grader fra underlaget, mens de ligger ned. Observer om benet kan holdes oppe uden støtte, og hvor hurtigt det synker ned mod underlaget.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -247,7 +247,7 @@
         "assessment": 11,
         "assessmentTitle": "7. Ekstremitets ataksi",
         "assessmentSubTitle": "",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Test koordination ved at lade patienten føre finger til næse og derefter til din finger, som du flytter under testen. På benene bruges hæl-mod-skinneben. Vurder om bevægelserne er præcise og jævne, eller om der ses ukoordinerede, slingrende bevægelser.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -267,7 +267,7 @@
         "assessment": 12,
         "assessmentTitle": "8. Sensibilitet",
         "assessmentSubTitle": "Teste ansigt-arme -ben - sammenlignsider",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Undersøg sensibiliteten ved at berøre patientens ansigt, arme og ben let med fingerspidserne eller en vatpind. Sammenlign siderne og vurder, om patienten mærker berøring normalt, reduceret eller slet ikke.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -287,7 +287,7 @@
         "assessment": 13,
         "assessmentTitle": "9. Afasi",
         "assessmentSubTitle": "Beskrive billeder - benævn genstande - læs sætninger (Brug billede)",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Vurder sproget ved at bede patienten navngive viste genstande, beskrive et billede eller gentage en sætning. Lyt efter flydende tale, korrekt ordvalg og evnen til at forstå instruktioner. Sammenlign med deres normale sprogniveau hvis muligt.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -311,7 +311,7 @@
         "assessment": 14,
         "assessmentTitle": "10. Dysartri",
         "assessmentSubTitle": "Læs forskellige ord (Brug billede)",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Bed patienten gentage simple ord eller korte sætninger. Lyt efter udtalen og om talen er tydelig eller sløret. Vurder, om patientens artikulation er normal, let påvirket eller svært utydelig.",
         "assessmentScoring": [
             {
                 "score": 0,
@@ -331,7 +331,7 @@
         "assessment": 15,
         "assessmentTitle": "11. Inattention",
         "assessmentSubTitle": "Dobbeltsidig sanse stimulation",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at sem lobortis, efficitur neque eget, fringilla ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent auctor consectetur massa, in faucibus turpis posuere eu. Curabitur ac feugiat nibh. Aenean mi ante, ultricies vitae aliquet sed, euismod eget erat. Suspendisse ac turpis nisi.",
+        "description": "Vurder om patienten overser stimuli i den ene side ved at teste samtidig berøring på begge sider af kroppen eller ved at vise objekter i begge synsfelter på én gang. Bemærk om patienten konsekvent ignorerer eller ikke registrerer stimuli på én side.",
         "assessmentScoring": [
             {
                 "score": 0,
